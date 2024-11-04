@@ -80,3 +80,10 @@ df_1 = pd.DataFrame(
     index= ['A', 'B', 'C', 'D'] )
 print(df_1.shape)
 print(df_1)
+
+#create a dataframe using a list of list but you have to provide the colum and index
+data_lis = [['Amy White', 50, 5], ['Jack Stewart', 53, 8], ['RIchard Lauderdale', 35, 3],
+        ['Sara Johnson', 43, 10],]
+
+df_lis= pd.DataFrame(data_lis, index=[1, 2, 3, 4], columns= ['Names', 'Age', 'Work Experience'])
+print(df_lis)
