@@ -86,4 +86,5 @@ data_lis = [['Amy White', 50, 5], ['Jack Stewart', 53, 8], ['RIchard Lauderdale'
         ['Sara Johnson', 43, 10],]
 
 df_lis= pd.DataFrame(data_lis, index=[1, 2, 3, 4], columns= ['Names', 'Age', 'Work Experience'])
+
 print(df_lis)
